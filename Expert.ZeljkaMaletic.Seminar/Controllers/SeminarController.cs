@@ -78,10 +78,30 @@ namespace Expert.ZeljkaMaletic.Seminar.Controllers
         //- u svakoj iteraciji petlje pomnozi {i} vrijednost petlje sa prosliijeđenom vrijednosti odabraniBroj(i* odabraniBroj)
         //- vrati listu stringova sa 10 rezultata na način da String izgleda ovako "rezultat {i}. iteracije je {rezultatMnozenja}"
 
-        //[HttpGet("Parametar/{odabraniBroj}")]
-        // public ActionResult<string> odabraniBroj(string prviBroj, string drugiBroj)
-        
+        [HttpGet("{Broj}")]
+        public ActionResult<List<string>> Broj(int Broj)
+        {
+            List<string> list = new List<string>();
+
+            //definiranje - uslov - korak
+            for (int i = 1; i <= 10; i++)
+            {
+
+                int rez = i * Broj;
+
+                string rezultat = Convert.ToString(rez);
+
+                string itr = Convert.ToString(i);
+
+                list.Add($"rezultat iteracije" + " " + itr + " " + "je" + " " + rezultat);
+            }
+
+            return list;
 
 
         }
+
+
+
+    }
 }
