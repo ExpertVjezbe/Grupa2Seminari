@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Seminar2.MilanJurjevic.Seminar2;
+namespace Seminar2.FraneGregov.Seminar2;
 
 public partial class Drzave
 {

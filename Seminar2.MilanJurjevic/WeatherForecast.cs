@@ -1,4 +1,4 @@
-namespace Seminar2.MilanJurjevic
+namespace Seminar2.FraneGregov
 {
     public class WeatherForecast
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Seminar2.MilanJurjevic.Seminar2;
+namespace Seminar2.FraneGregov.Seminar2;
 
 public partial class Seminar2Context : DbContext
 {

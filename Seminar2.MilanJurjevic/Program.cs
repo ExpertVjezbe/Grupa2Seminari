@@ -1,6 +1,6 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using Seminar2.MilanJurjevic.Seminar2;
+using Seminar2.FraneGregov.Seminar2;
 
 
 var builder = WebApplication.CreateBuilder(args);

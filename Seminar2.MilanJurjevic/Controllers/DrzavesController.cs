@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Seminar2.MilanJurjevic.Seminar2;
+using Seminar2.FraneGregov.Seminar2;
 
-namespace Seminar2.MilanJurjevic.Controllers
+namespace Seminar2.FraneGregov.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
